@@ -196,6 +196,45 @@ document.addEventListener("DOMContentLoaded", () => {
       colorDiv.classList.toggle("selected")
     );
   });
+
+  document.querySelector("#cart").addEventListener("click", () => {
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
+    if (cart.length > 0) {
+      const cartItems = cart
+        .map(
+          (item) => `
+          <div class="cart-item">
+            <img src="${item.image}" alt="${item.name}">
+            <div class="cart-item-info">
+              <h4>${item.name}</h4>
+              <div class="price">${item.price}</div>
+            </div>
+          </div>
+        `
+        )
+        .join("");
+
+      const cartPopup = document.createElement("div");
+      cartPopup.classList.add("cart-popup");
+      cartPopup.innerHTML = `
+        <div class="cart-popup-content">
+          <h3>Your Cart</h3>
+          ${cartItems}
+          <button class="close-cart-popup">Close</button>
+        </div>
+      `;
+
+      document.body.appendChild(cartPopup);
+
+      document
+        .querySelector(".close-cart-popup")
+        .addEventListener("click", () => {
+          document.body.removeChild(cartPopup);
+        });
+    } else {
+      alert("Your cart is empty!");
+    }
+  });
 });
 {
   document.querySelector("#men").addEventListener("click", (e) => {

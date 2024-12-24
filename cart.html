@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      #cart-items {
+        max-width: 600px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      #cart-items ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      #cart-items li {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      #cart-items li:last-child {
+        border-bottom: none;
+      }
+
+      .remove-btn {
+        background-color: #ff4d4d;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="/index.html" class="logo">Abyssinia Collections </a>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search for products..." />
+        <button class="search-btn">🔍</button>
+      </div>
+      <div class="header-actions">
+        <button class="cart-btn" id="cart">🛒</button>
+        <button class="account-btn">👤</button>
+      </div>
+    </header>
+    <h1>Your Cart</h1>
+    <div id="cart-items"></div>
+
+    <script>
+      // Function to display cart items
+      function displayCartItems() {
+        const cartItemsContainer = document.getElementById("cart-items");
+        const cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+        if (cart.length === 0) {
+          cartItemsContainer.innerHTML = "<p>Your cart is empty.</p>";
+        } else {
+          const itemList = document.createElement("ul");
+          cart.forEach((item, index) => {
+            const listItem = document.createElement("li");
+            listItem.innerHTML = `${item.name} - ${item.quantity} x $${item.price} <button class="remove-btn" onclick="removeFromCart(${index})">Remove</button>`;
+            itemList.appendChild(listItem);
+          });
+          cartItemsContainer.appendChild(itemList);
+        }
+      }
+
+      // Function to remove item from cart
+      function removeFromCart(index) {
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+        cart.splice(index, 1);
+        localStorage.setItem("cart", JSON.stringify(cart));
+        displayCartItems();
+      }
+
+      // Call the function to display cart items on page load
+      window.onload = displayCartItems;
+    </script>
+  </body>
+</html>
