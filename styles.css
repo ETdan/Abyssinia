@@ -216,6 +216,20 @@ header {
 .product-info h4 {
   margin-bottom: 0.5rem;
 }
+.product-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-to-cart {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 .price {
   color: #007bff;
