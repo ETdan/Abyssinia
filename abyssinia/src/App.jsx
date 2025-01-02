@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import AuthLayout from "./layouts/AuthLayout";
+import NoAuthLayout from "./layouts/NoAuthLayout";
 import Home from "./pages/Home";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
@@ -14,7 +15,7 @@ import NotFound from "./pages/NotFound";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Admin from "./pages/Admin";
-import Layout from "./components/Layout";
+import Layout from "./layouts/Layout";
 import AddCategory from "./pages/admin/AddCategory";
 import AddProduct from "./pages/admin/AddProduct";
 import Statistics from "./pages/admin/Statistics";
@@ -26,19 +27,25 @@ function App() {
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
           <Route path="/" element={<Layout />}>
-            <Route path="categories" element={<Categories />} />
-            <Route path="category/:categoryId" element={<Category />} />
-            <Route path="product/:productId" element={<Product />} />
-            <Route path="cart" element={<Cart />} />
-            <Route path="checkout" element={<Checkout />} />
-            <Route path="order-confirmation" element={<OrderConfirmation />} />
-            <Route path="account" element={<UserAccount />} />
+            {/* Add authenticated routes here if needed */}
+            <Route path="/" element={<AuthLayout />}>
+              <Route path="categories" element={<Categories />} />
+              <Route path="category/:categoryName" element={<Category />} />
+              <Route path="product/:productId" element={<Product />} />
+              <Route path="cart" element={<Cart />} />
+              <Route path="checkout" element={<Checkout />} />
+              <Route
+                path="order-confirmation"
+                element={<OrderConfirmation />}
+              />
+              <Route path="account" element={<UserAccount />} />
+            </Route>
             <Route path="search" element={<SearchResults />} />
           </Route>
         </Route>
 
         {/* Auth Layout */}
-        <Route path="/" element={<AuthLayout />}>
+        <Route path="/" element={<NoAuthLayout />}>
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
         </Route>

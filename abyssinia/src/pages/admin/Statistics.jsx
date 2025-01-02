@@ -1,12 +1,33 @@
-import { FaUsers, FaShoppingCart, FaDollarSign } from 'react-icons/fa';
+import { FaUsers, FaShoppingCart, FaDollarSign } from "react-icons/fa";
+import { useEffect, useState } from "react";
 
 function Statistics() {
   // Placeholder data (replace with actual data fetching logic)
-  const stats = {
-    totalUsers: 1234,
-    totalOrders: 5678,
-    totalRevenue: 98765.43,
-  };
+  const [stats, setStats] = useState({
+    totalUsers: 0,
+    totalOrders: 0,
+    totalRevenue: 0,
+  });
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const response = await fetch("http://localhost:5000/admin/statistics", {
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${localStorage.getItem("token")}`,
+          },
+        });
+        const data = await response.json();
+        setStats(data.data);
+        console.log(data, "////////////////");
+      } catch (error) {
+        console.error("Error fetching statistics:", error);
+      }
+    }
+
+    fetchData();
+  }, []);
 
   return (
     <div>
@@ -34,7 +55,7 @@ function Statistics() {
           <div className="flex items-center justify-between">
             <div>
               <p className="text-sm text-gray-500 mb-1">Total Revenue</p>
-              <p className="text-3xl font-bold">${stats.totalRevenue.toFixed(2)}</p>
+              <p className="text-3xl font-bold">${stats.totalRevenue || 0}</p>
             </div>
             <FaDollarSign className="text-4xl text-yellow-500" />
           </div>
@@ -45,4 +66,3 @@ function Statistics() {
 }
 
 export default Statistics;
-

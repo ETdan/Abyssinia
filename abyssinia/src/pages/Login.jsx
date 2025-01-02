@@ -11,20 +11,20 @@ function Login() {
     fetch("http://localhost:5000/login", {
       method: "POST",
       headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
+        "Content-Type": "application/json",
       },
-      body: new URLSearchParams({ username, password }),
+      body: JSON.stringify({ username, password }),
     })
       .then((response) => response.json())
       .then((data) => {
-        if (data) {
+        if (data.status === "success") {
           // Redirect to dashboard or another page
           localStorage.setItem("token", data.token);
           window.location.href = "/";
           console.log("Login successful");
         } else {
           // Handle login failure
-          alert("Login failed");
+          alert(data.message);
           console.error("Login failed");
         }
       })

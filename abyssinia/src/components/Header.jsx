@@ -2,15 +2,29 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 function Header() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   useEffect(() => {
     const token = localStorage.getItem("token");
     if (token) {
       setIsLoggedIn(true);
+    } else {
+      setIsLoggedIn(false);
     }
   }, []);
 
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  function handleSearch(event) {
+    event.preventDefault();
+    const query = event.target.elements[0].value;
+    console.log("Searching for:", query);
+    if (!query) {
+      return;
+    } else {
+      // Implement search functionality here
+      window.location.href = `/search?q=${encodeURIComponent(query)}`;
+    }
+  }
 
   return (
     <header className="bg-white shadow-md">
@@ -19,7 +33,7 @@ function Header() {
           Abyssinia
         </Link>
         <div className="hidden md:flex items-center space-x-4">
-          <form className="relative">
+          <form onSubmit={handleSearch} className="relative">
             <input
               type="text"
               placeholder="Search..."
@@ -67,7 +81,7 @@ function Header() {
                 Login
               </Link>
             )}
-            <form className="relative">
+            <form onSubmit={handleSearch} className="relative">
               <input
                 type="text"
                 placeholder="Search..."

@@ -1,0 +1,211 @@
+[
+  {
+    "_id": {
+      "$oid": "6773d2386b6916c66cef4bd3"
+    },
+    "name": "T-Shirts",
+    "icon": "FaTshirt",
+    "image": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Comfortable and stylish T-Shirts for everyday wear."
+  },
+  {
+    "_id": {
+      "$oid": "6773d2386b6916c66cef4bd4"
+    },
+    "name": "Jeans",
+    "icon": "FaShoppingBag",
+    "image": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Durable and fashionable jeans for all occasions."
+  },
+  {
+    "_id": {
+      "$oid": "6773d2386b6916c66cef4bd5"
+    },
+    "name": "Dresses",
+    "icon": "FaShoppingBag",
+    "image": [
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Elegant and trendy dresses for special events."
+  },
+  {
+    "_id": {
+      "$oid": "6773d2386b6916c66cef4bd6"
+    },
+    "name": "Jackets",
+    "icon": "FaShoppingBag",
+    "image": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Warm and stylish jackets for cold weather."
+  },
+  {
+    "_id": {
+      "$oid": "6773d2386b6916c66cef4bd7"
+    },
+    "name": "Shoes",
+    "icon": "FaShoePrints",
+    "image": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Comfortable and fashionable shoes for all activities."
+  },
+  {
+    "_id": {
+      "$oid": "6773d2386b6916c66cef4bd8"
+    },
+    "name": "Accessories",
+    "icon": "FaGem",
+    "image": [
+      "https://images.unsplash.com/photo-1631534839070-2931caa7d32e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Stylish accessories to complement your outfit."
+  },
+  {
+    "_id": {
+      "$oid": "6773d2386b6916c66cef4bd9"
+    },
+    "name": "Hats",
+    "icon": "FaHatCowboy",
+    "image": [
+      "https://images.unsplash.com/photo-1514327605112-b887c0e61c0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Fashionable hats for all seasons."
+  },
+  {
+    "_id": {
+      "$oid": "6773d2386b6916c66cef4bda"
+    },
+    "name": "Socks",
+    "icon": "FaSocks",
+    "image": [
+      "https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Comfortable and durable socks for everyday wear."
+  },
+  {
+    "_id": {
+      "$oid": "6773d2386b6916c66cef4bdb"
+    },
+    "name": "Sunglasses",
+    "icon": "FaGlasses",
+    "image": [
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Stylish sunglasses to protect your eyes."
+  },
+  {
+    "_id": {
+      "$oid": "6773d2386b6916c66cef4bdc"
+    },
+    "name": "Umbrellas",
+    "icon": "FaUmbrella",
+    "image": [
+      "https://images.unsplash.com/photo-1517336277864-8c02f49ef022?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Durable umbrellas to keep you dry."
+  },
+  {
+    "_id": {
+      "$oid": "6773d2386b6916c66cef4bdd"
+    },
+    "name": "Belts",
+    "icon": "FaBelt",
+    "image": [
+      "https://images.unsplash.com/photo-1581579185169-7c1e2b3f4f6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Stylish belts to complete your look."
+  },
+  {
+    "_id": {
+      "$oid": "6773d2386b6916c66cef4bde"
+    },
+    "name": "Watches",
+    "icon": "FaWatch",
+    "image": [
+      "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Elegant watches to keep you on time."
+  },
+  {
+    "_id": {
+      "$oid": "6773d2386b6916c66cef4bdf"
+    },
+    "name": "Bags",
+    "icon": "FaBag",
+    "image": [
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Fashionable bags for all your needs."
+  },
+  {
+    "_id": {
+      "$oid": "6773d2386b6916c66cef4be0"
+    },
+    "name": "Scarves",
+    "icon": "FaScarf",
+    "image": [
+      "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Warm and stylish scarves for chilly days."
+  },
+  {
+    "_id": {
+      "$oid": "6773d2386b6916c66cef4be1"
+    },
+    "name": "Men",
+    "icon": "FaMale",
+    "image": [
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Fashionable clothing and accessories for men."
+  },
+  {
+    "_id": {
+      "$oid": "6773d2386b6916c66cef4be2"
+    },
+    "name": "Women",
+    "icon": "FaFemale",
+    "image": [
+      "https://images.unsplash.com/photo-1520975698519-4f1dabc5a4d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Stylish clothing and accessories for women."
+  },
+  {
+    "_id": {
+      "$oid": "6773d2386b6916c66cef4be3"
+    },
+    "name": "Kids",
+    "icon": "FaChild",
+    "image": [
+      "https://images.unsplash.com/photo-1503457574464-0ec7ec1e95e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Cute and comfortable clothing for kids."
+  },
+  {
+    "_id": {
+      "$oid": "6773d2386b6916c66cef4be4"
+    },
+    "name": "Top",
+    "icon": "FaTshirt",
+    "image": [
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Trendy tops for all occasions."
+  },
+  {
+    "_id": {
+      "$oid": "6773d2386b6916c66cef4be5"
+    },
+    "name": "Bottom",
+    "icon": "FaPants",
+    "image": [
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "description": "Stylish bottoms for every outfit."
+  }
+]

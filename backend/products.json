@@ -1,0 +1,268 @@
+[
+  {
+    "name": "Classic White Tee",
+    "description": "A timeless white T-shirt for everyday comfort.",
+    "price": 19.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bd3" },
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "M",
+    "color": "White",
+    "quantity": 50,
+    "brand": "BasicWear",
+    "countInStock": 50
+  },
+  {
+    "name": "Slim Fit Jeans",
+    "description": "Slim fit jeans for a modern look.",
+    "price": 59.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bd4" },
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "32x32",
+    "color": "Blue",
+    "quantity": 40,
+    "brand": "DenimCo",
+    "countInStock": 40
+  },
+  {
+    "name": "Summer Dress",
+    "description": "A light and airy dress perfect for summer.",
+    "price": 39.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bd5" },
+    "images": [
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "S",
+    "color": "Yellow",
+    "quantity": 20,
+    "brand": "SunnyStyle",
+    "countInStock": 20
+  },
+  {
+    "name": "Leather Jacket",
+    "description": "A stylish leather jacket for a bold look.",
+    "price": 199.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bd6" },
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "L",
+    "color": "Brown",
+    "quantity": 10,
+    "brand": "BoldWear",
+    "countInStock": 10
+  },
+  {
+    "name": "Running Shoes",
+    "description": "Comfortable running shoes for your daily jog.",
+    "price": 89.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bd7" },
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "10",
+    "color": "Black",
+    "quantity": 50,
+    "brand": "RunFast",
+    "countInStock": 50
+  },
+  {
+    "name": "Silver Necklace",
+    "description": "A delicate silver necklace for a touch of elegance.",
+    "price": 49.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bd8" },
+    "images": [
+      "https://images.unsplash.com/photo-1631534839070-2931caa7d32e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "One Size",
+    "color": "Silver",
+    "quantity": 20,
+    "brand": "Elegance",
+    "countInStock": 20
+  },
+  {
+    "name": "Stylish Hat",
+    "description": "A fashionable hat to complete your look.",
+    "price": 39.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bd9" },
+    "images": [
+      "https://images.unsplash.com/photo-1514327605112-b887c0e61c0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "One Size",
+    "color": "Beige",
+    "quantity": 25,
+    "brand": "HatWorld",
+    "countInStock": 25
+  },
+  {
+    "name": "Wool Socks",
+    "description": "Warm and cozy wool socks for cold days.",
+    "price": 14.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bda" },
+    "images": [
+      "https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "One Size",
+    "color": "Gray",
+    "quantity": 50,
+    "brand": "CozyFeet",
+    "countInStock": 50
+  },
+  {
+    "name": "Aviator Sunglasses",
+    "description": "Classic aviator sunglasses for a stylish look.",
+    "price": 59.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bdb" },
+    "images": [
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "One Size",
+    "color": "Gold",
+    "quantity": 15,
+    "brand": "SunStyle",
+    "countInStock": 15
+  },
+  {
+    "name": "Compact Umbrella",
+    "description": "A compact umbrella for rainy days.",
+    "price": 19.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bdc" },
+    "images": [
+      "https://images.unsplash.com/photo-1517336277864-8c02f49ef022?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "One Size",
+    "color": "Black",
+    "quantity": 40,
+    "brand": "RainGuard",
+    "countInStock": 40
+  },
+  {
+    "name": "Leather Belt",
+    "description": "A durable leather belt for a polished look.",
+    "price": 24.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bdd" },
+    "images": [
+      "https://images.unsplash.com/photo-1581579185169-7c1e2b3f4f6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "32",
+    "color": "Brown",
+    "quantity": 30,
+    "brand": "LeatherCraft",
+    "countInStock": 30
+  },
+  {
+    "name": "Analog Watch",
+    "description": "A sleek analog watch for timeless style.",
+    "price": 99.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bde" },
+    "images": [
+      "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "One Size",
+    "color": "Silver",
+    "quantity": 20,
+    "brand": "TimeMaster",
+    "countInStock": 20
+  },
+  {
+    "name": "Leather Backpack",
+    "description": "A stylish leather backpack for daily use.",
+    "price": 129.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bdf" },
+    "images": [
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "One Size",
+    "color": "Brown",
+    "quantity": 15,
+    "brand": "LeatherCraft",
+    "countInStock": 15
+  },
+  {
+    "name": "Cashmere Scarf",
+    "description": "A soft cashmere scarf for chilly days.",
+    "price": 79.99,
+    "category": { "$oid": "6773d2386b6916c66cef4be0" },
+    "images": [
+      "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "One Size",
+    "color": "Red",
+    "quantity": 25,
+    "brand": "CozyStyle",
+    "countInStock": 25
+  },
+  {
+    "name": "Men's Polo Shirt",
+    "description": "A classic polo shirt for men.",
+    "price": 34.99,
+    "category": { "$oid": "6773d2386b6916c66cef4be1" },
+    "images": [
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "L",
+    "color": "Blue",
+    "quantity": 40,
+    "brand": "ClassicWear",
+    "countInStock": 40
+  },
+  {
+    "name": "Women's Blouse",
+    "description": "A stylish blouse for women.",
+    "price": 44.99,
+    "category": { "$oid": "6773d2386b6916c66cef4be2" },
+    "images": [
+      "https://images.unsplash.com/photo-1520975698519-4f1dabc5a4d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "M",
+    "color": "White",
+    "quantity": 30,
+    "brand": "Elegance",
+    "countInStock": 30
+  },
+  {
+    "name": "Kids' Hoodie",
+    "description": "A cozy hoodie for kids.",
+    "price": 29.99,
+    "category": { "$oid": "6773d2386b6916c66cef4be3" },
+    "images": [
+      "https://images.unsplash.com/photo-1503457574464-0ec7ec1e95e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "S",
+    "color": "Green",
+    "quantity": 50,
+    "brand": "KidsComfort",
+    "countInStock": 50
+  },
+  {
+    "name": "Crop Top",
+    "description": "A trendy crop top for a casual look.",
+    "price": 24.99,
+    "category": { "$oid": "6773d2386b6916c66cef4be4" },
+    "images": [
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "M",
+    "color": "Pink",
+    "quantity": 35,
+    "brand": "TrendyWear",
+    "countInStock": 35
+  },
+  {
+    "name": "Chinos",
+    "description": "Stylish chinos for a smart-casual look.",
+    "price": 54.99,
+    "category": { "$oid": "6773d2386b6916c66cef4be5" },
+    "images": [
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "32x32",
+    "color": "Khaki",
+    "quantity": 25,
+    "brand": "SmartStyle",
+    "countInStock": 25
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Classic White Tee",
+    "description": "A timeless white T-shirt for everyday comfort.",
+    "price": 19.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bd3" },
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "M",
+    "color": "White",
+    "quantity": 50,
+    "brand": "BasicWear",
+    "countInStock": 50
+  },
+  {
+    "name": "Slim Fit Jeans",
+    "description": "Slim fit jeans for a modern look.",
+    "price": 59.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bd4" },
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "32x32",
+    "color": "Blue",
+    "quantity": 40,
+    "brand": "DenimCo",
+    "countInStock": 40
+  },
+  {
+    "name": "Summer Dress",
+    "description": "A light and airy dress perfect for summer.",
+    "price": 39.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bd5" },
+    "images": [
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "S",
+    "color": "Yellow",
+    "quantity": 20,
+    "brand": "SunnyStyle",
+    "countInStock": 20
+  },
+  {
+    "name": "Leather Jacket",
+    "description": "A stylish leather jacket for a bold look.",
+    "price": 199.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bd6" },
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "L",
+    "color": "Brown",
+    "quantity": 10,
+    "brand": "BoldWear",
+    "countInStock": 10
+  },
+  {
+    "name": "Running Shoes",
+    "description": "Comfortable running shoes for your daily jog.",
+    "price": 89.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bd7" },
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "10",
+    "color": "Black",
+    "quantity": 50,
+    "brand": "RunFast",
+    "countInStock": 50
+  },
+  {
+    "name": "Silver Necklace",
+    "description": "A delicate silver necklace for a touch of elegance.",
+    "price": 49.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bd8" },
+    "images": [
+      "https://images.unsplash.com/photo-1631534839070-2931caa7d32e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "One Size",
+    "color": "Silver",
+    "quantity": 20,
+    "brand": "Elegance",
+    "countInStock": 20
+  },
+  {
+    "name": "Stylish Hat",
+    "description": "A fashionable hat to complete your look.",
+    "price": 39.99,
+    "category": { "$oid": "6773d2386b6916c66cef4bd9" },
+    "images": [
+      "https://images.unsplash.com/photo-1514327605112-b887c0e61c0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    ],
+    "size": "One Size",
+    "color": "Beige",
+    "quantity": 25,
+    "brand": "HatWorld",
+    "countInStock": 25
+  }
+]
